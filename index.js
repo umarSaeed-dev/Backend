@@ -27,10 +27,7 @@ app.get('/hello',(req,res)=>{
 
 app.post('/newUser', async (req,res)=>{
     try{
-
-
         const {name, email, phone} = req.body
-
         const newUser = await new User({
             name: name,
             email: email,
