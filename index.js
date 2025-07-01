@@ -8,7 +8,7 @@ const Employee = require("./employeModel")
 
 const app = express()
 
-mongoose.connect('mongodb+srv://us287470:g6tfbE7cYnrB4Kxg@cluster0.f7xr9yx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(()=>{
+mongoose.connect('Cluster Key').then(()=>{
     console.log(" Database Connected")
 }).catch((err)=>{
 
